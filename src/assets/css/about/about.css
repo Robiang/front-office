@@ -1,0 +1,10 @@
+@import '../layouts/reser.css';
+@import '../layouts/header.css';
+
+@import './hero.css';
+
+@import './team.css';
+@import './sponsor.css';
+@import './about_contact.css';
+
+@import "../layouts/footer.css";

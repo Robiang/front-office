@@ -1,0 +1,101 @@
+
+.header{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    z-index: 1000;
+    background-color: var(--white-color);
+
+}
+.header.active{
+    box-shadow: var(--box-shadow);
+}
+
+
+.header .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header .flex .logo{
+    font-size: 1.7rem;
+    color: var(--black-color);
+}
+.header .flex .logo:hover{
+    transform: translateX(10px);
+}
+.header .flex .logo .span{
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    color:  var(--main-color);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.navbar .link{
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 0.2rem;
+    font-size: 1.1rem;
+    color: var(--light-color);
+    position: relative;
+    border: .2rem solid transparent;
+    padding: .5rem .8rem;
+    border-radius: 6px;
+}
+
+.navbar .link:hover{
+    color: var(--main-color);
+    border: .2rem solid var(--main-color);
+    transform: translateX(10px);
+}
+
+
+#menu-btn{
+    display: none;
+    font-size: 2rem;
+    color: var(--black-colorblack);
+    cursor: pointer;
+    &.fa-xmark{
+        transform: rotate(90deg);
+    }
+}
+
+#menu-btn .fa-xmark{
+    transform: rotate(90deg);
+}
+
+
+@media screen and (max-width: 768px){
+    #menu-btn{
+        display: inline-block;
+    }
+    .header .flex{
+        position: relative;
+        
+    }
+    .header .flex .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        border-top: var(--border);
+        padding: .5rem;
+        backdrop-filter: blur(1rem);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        background-color: var(--white-color);
+    }
+    .header .flex .navbar .link{
+        display: block;
+        font-size: 1.1rem;
+        margin: 1rem;
+        padding: .5rem;
+        border: none;
+        
+    }
+    .header .flex .navbar .link:hover{
+        padding-left: 2rem;
+    }
+    .header .flex .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}

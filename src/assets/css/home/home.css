@@ -1,0 +1,7 @@
+@import '../layouts/reser.css';
+@import '../layouts/header.css';
+
+@import "../home/hero.css";
+@import "./grid_profile.css";
+
+@import "../layouts/footer.css";

@@ -1,0 +1,256 @@
+
+/* ================================================================
+   [ENOCK JAPHET] feature/home_grid_cards
+   Fichier  : src/assets/css/home/home.css
+   Branche  : feature/home_grid_cards
+   Mission  : Styles de la section grille de cartes (3×4) + titre
+================================================================ */
+
+
+/* ── Titre de section ──────────────────────────────────────── */
+
+.profiles {
+  padding: .5rem;
+  padding-bottom: 3rem;
+  /* border: .1rem solid orange; */
+}
+
+.profiles .section-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+/*
+  Titre principal"
+*/
+.profiles .section-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--main-color);
+  margin-bottom: 8px;
+}
+
+/*
+  Sous-titre "
+*/
+.profiles .section-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: var(--light-color);
+}
+
+
+/* ── Grille ─────────────────────────────────────────────────── */
+
+.profiles .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+/* ── Carte empilée (front + back) ───────────────────────────── */
+
+/* .card-stack {
+  position: relative;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border: .1rem solid #c1bebe;
+  border-top: .6rem solid var(--main-color);
+  border-radius: 16px;
+  background-color: orange;
+} */
+
+/* Carte arrière — celle en background possède un background coloré */
+/* .card-back {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: -50px;
+  left: 10px;
+  border-radius: 16px;
+  z-index: 0;
+} */
+
+/* Carte avant — blanche, au premier plan */
+.card-front {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: .1rem solid #c1bebe;
+  border-top: .6rem solid var(--main-color);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+.card-front:hover{
+  transform: scale(1.1);
+  box-shadow:  0 .5rem 1rem rgba(0, 0, 0, .4);
+
+}
+
+
+/* ── Avatar (photo de profil) ───────────────────────────────── */
+
+.card-avatar {
+  width: 8.5rem;
+  height: 8.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-weight: 700; */
+  /* font-size: 28px; */
+  /* color: #ffffff; */
+  margin-bottom: 1rem;
+  /* flex-shrink: 0; */
+
+}
+.card-avatar img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/* ── Textes de la carte ─────────────────────────────────────── */
+
+.card-name {
+  font-family: 'Sora', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #111111;
+  margin-bottom: .6rem;
+}
+
+/*
+  Sous-titre métier "
+*/
+.card-role {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #2f2e2e;
+  margin-bottom: 1rem;
+}
+
+/*
+  Description "
+*/
+.card-desc {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--light-color);
+  line-height: 1.5;
+  margin-bottom: .8rem;
+  flex: 1;
+}
+
+
+/* ── Technologies (tags) ────────────────────────────────────── */
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  margin-bottom: .7rem;
+}
+
+.card-tag {
+  background-color: #D4D6F2;
+  border: 1px solid #B6B9D7;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: .7rem;
+  color: #242D3C;
+  padding: .4rem .8rem;
+}
+
+
+/* ── Bouton "Voir le portfolio" ─────────────────────────────── */
+
+
+.card-btn {
+  display: inline-block;
+  background-color: #1B407D;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 12px;
+  padding: 5px 26px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.card-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+
+/* ── Couleurs des cartes arrière (une par profil) ───────────── */
+
+/* Source charte : palette des 6 couleurs de profil */
+.back-1 { background-color: #481CD6; }
+.back-2 { background-color: #1831C1; }
+.back-3 { background-color: #204A8E; }
+.back-4 { background-color: #951CD6; }
+.back-5 { background-color: #5788F2; }
+.back-6 { background-color: #EA63CA; }
+
+
+/* ── Couleurs des avatars (même cycle) ──────────────────────── */
+
+.av-1 { background-color: #481CD6; }
+.av-2 { background-color: #1831C1; }
+.av-3 { background-color: #204A8E; }
+.av-4 { background-color: #951CD6; }
+.av-5 { background-color: #5788F2; }
+.av-6 { background-color: #EA63CA; }
+
+
+
+
+@media screen and (max-width: 1100px){
+
+  .profiles .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media screen and (max-width: 700px){
+
+  .profiles .grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media screen and (max-width: 400px){
+  .profiles .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .profiles .section-subtitle {
+    font-size: 1.2rem;
+  }
+}
