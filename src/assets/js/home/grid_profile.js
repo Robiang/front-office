@@ -3,20 +3,25 @@
            Chaque développeur met à jour son propre objet ici.
         ---------------------------------------------------------------- */
       
-        import imgBenoitMondjo from "../../images/about-profil/Glen-benoit.jpg" 
-        import ronyGael from "../../images/about-profil/rony-gael.jpg"
-        import gedeonDong from "../../images/about-profil/GEDEON.png"
-        import astuce from "../../images/about-profil/numérisé_20260520-0933.jpg"
-        import yurik from "../../images/about-profil/PAUL.png"
-        import wen from "../../images/about-profil/wen-jaonel.jpg"
-        import levy from "../../images/about-profil/LEVY.png"
-        import jeanJunior from "../../images/about-profil/JJ.png"
-        import ulrich from "../../images/about-profil/ULRICH.png"
-        import vanelie from  "../../images/about-profil/PP.png"
+        import imgBenoitMondjo from "../../images/home/profile/profile-benoit.jpg" 
+        import imgBeevProfile from "../../images/home/profile/profile-beev.jpg"
+        import imgRonyGael from "../../images/home/profile/profile-rony-gael.jpg"
+        import imgGedeonDong from "../../images/home/profile/profile-gedeon.png"
+        import imgAstuce from "../../images/home/profile/profile-astuce.jpg"
+        import imgYurik from "../../images/home/profile/profile-paul-yurick.png"
+        import imgWen from "../../images/home/profile/profile-wen-jaonel.jpg"
+        import imgLevy from "../../images/home/profile/profile-levy.png"
+        import imgJeanJunior from "../../images/home/profile/profile-jean-junior.png"
+        import imgUlrich from "../../images/home/profile/profile-ulrich.jpg"
+        import imgVanelie from  "../../images/home/profile/profile-vanelie.png"
+        import imgJaphet from "../../images/home/profile/profile-japhet.png"
+        import imgOsirus from "../../images/home/profile/profile-osirus.png"
+        import imgRusia from "../../images/home/profile/profile-rusia.jpg"
+        import imgYolaine from "../../images/home/profile/profile-yolaine.png"
+        import imgMartiale from "../../images/home/profile/profile-martiale.png"
 
         const developers = [
 
-            /* ── Ligne 1 ── */
             {
                 initials:    "NEJ",
                 name:        "KOMBILA NZIENGUI Enock Japhet",
@@ -26,121 +31,160 @@
                 avatarClass: "av-1",
                 backClass:   "back-1",
                 link: "https://nejdev241.github.io/portfolio/",
-                photo: "src/assets/images/about-profil/profile.png" 
+                photo: imgJaphet
 
             },
 
             {
                 initials: "GB",
-                name: "MONDJO MONDJO Glaine Benoit",
-                role: "Développeur web et web mobile",
-                desc: "Passionné par les interfaces interactives et l'animation web. Spécialisé dans la création d'expériences utilisateur fluide avec React.",
-                tags: ["HTML", "CSS", "JS", "React"],
+                name: "Glaine Benoit MONDJO MONDJO",
+                role: "Full-Stack developer web",
+                desc: "Développeur polyvalent. Je conçois et développe des sites et applications web, ainsi que des API REST FULL. Pour plus de détails, voir mon portfolio.",
+                tags: ["HTML", "CSS", "JS", "React", "node JS", "Express Js"],
                 avatarClass: "av-2",
                 backClass:   "back-2",
                 link: "https://benoitmondjo.github.io/integration_portfolio/", 
                 photo: imgBenoitMondjo
             },
-
-          
   
             {
                 initials: "RG",
-                name: "Rony Gael",
-                role: "Développeur web et web mobile",
-                desc: "Développeur full-stack orienté backend. Je me concentre sur la création d'APIs robustes et l'optimisation des performances avec Node.js.",
+                name: "Rony Gael OBIANG",
+                role: "Développeur web Front-End passionné",
+                desc: "Du terrain au code : je crée des solutions numériques utiles et concrètes.",
                 tags: ["HTML", "CSS", "Node.js"],
                 link: "https://robiang.github.io/portfolio_rony/",
-                photo: ronyGael
+                photo: imgRonyGael
             },
 
-             {
+            {
                 initials: "GN",
                 name: "Gédéon Ndong",
-                role: "Développeur web et web mobile",
-                desc: "Développeur full-stack orienté backend. Je me concentre sur la création d'APIs robustes et l'optimisation des performances avec Node.js.",
+                role: " Développeur Front-End",
+                desc: "Spécialisé dans l’intégration web, je transforme des maquettes en pages fonctionnelles grâce à HTML, CSS et JavaScript. J’accorde une importance particulière à la qualité visuelle, à la cohérence du design et à l’adaptabilité sur tous les écrans. Toujours en apprentissage, je développe mes compétences à travers des projets pratiques et je m’investis dans l’amélioration continue de mes connaissances afin de proposer des solutions fiables et professionnelles.",
                 tags: ["HTML", "CSS", "Node.js"],
                 link: "https://furickndong.github.io/portfolio",
-                photo: gedeonDong
+                photo: imgGedeonDong
             },
-
 
             {
                 initials: "AFT",
                 name: "Astuce Freeman TENGO",
-                role: "Développeur web et web mobile",
+                role: "Développeur web fullstack ",
                 desc: "Développeur full-stack orienté backend. Je me concentre sur la création d'APIs robustes et l'optimisation des performances avec Node.js.",
                 tags: ["HTML", "CSS", "Node.js"],
                 link: "https://freemanastuce20-star.github.io/portfolio/",
-                photo: astuce
+                photo: imgAstuce
             },
-
-
 
             {
                 initials: "NPY",
                 name: "NDONDY PAUL YURICK ",
-                role: "Développeur web et web mobile",
-                desc: "Développeur full-stack orienté backend. Je me concentre sur la création d'APIs robustes et l'optimisation des performances avec Node.js.",
-                tags: ["HTML", "CSS", "Node.js"],
+                role: "Développeur web débutant",
+                desc: "Je suis NDONDY PAUL YURICK développeur web débutant Je conçois des plateformes mobiles Simple et structurés Toujours en apprentissage je développe mes compétences à travers divers projets ",
+                tags: ["HTML", "CSS", "CSS"],
                 link: "https://paulyurick.github.io/Mon-portfolio/",
-                photo: yurik
+                photo: imgYurik
             },
 
-               {
+            {
                 initials: "MEWJ",
                 name: "MAKANAGA ETCHOU Wen Joanel",
-                role: "Développeur web et web mobile",
-                desc: "Développeur full-stack orienté backend. Je me concentre sur la création d'APIs robustes et l'optimisation des performances avec Node.js.",
-                tags: ["HTML", "CSS", "Node.js"],
-                link: "https://wen360-lab.github.io/portfolio/#",
-                photo: wen
+                role: "Développeur web",
+                desc: "Passionné par le web design, les interfaces interactives, élégantes et aux animations web, je me spécialisedans la création d’expériences utilisateur fluides et fonctionnelles",
+                tags: ["HTML", "CSS", "JavaScript","Figma","Git/Github"],
+                link: "https://wen360-lab.github.io/portfolio/",
+                photo: imgWen
             },
-
 
             {
                 initials: "MTFL",
                 name: "Franclin Levy MOUBILOBA TSIAKONGA",
                 role: "Développeur web et web mobile",
-                desc: "Développeur full-stack orienté backend. Je me concentre sur la création d'APIs robustes et l'optimisation des performances avec Node.js.",
-                tags: ["HTML", "CSS", "Node.js"],
+                desc: "Spécialiste en intégration web, je met en œuvre des maquettes pour créer des pages web interactives en utilisant HTML, CSS et JavaScript. Je veille particulièrement à la qualité esthétique, à l'harmonie du design et à la réactivité sur tous les types d'écrans.Toujours en quête d'apprentissage, j'affine mes compétences à travers des projets concrets et m'engage dans un processus d'amélioration continue de mes connaissances, afin de fournir des solutions fiables et professionnelles.",
+                tags: ["HTML", "CSS", "JS"],
                 link: "https://moubilobalevy-netizen.github.io/mon-portfolio/",
-                photo: levy
+                photo: imgLevy
             },
-
-
-
 
             {
                 initials: "DMJJ",
                 name: "Jean Junior DIRAMBA MAMBOUNDOU",
-                role: "Développeur web et web mobile",
-                desc: "Développeur full-stack orienté backend. Je me concentre sur la création d'APIs robustes et l'optimisation des performances avec Node.js.",
+                role: "Apprenti Développeur Front-End",
+                desc: "En formation intensive à l’Ecole {241}, je transforme des maquettes en interfaces propres et structurées. Rigoureux et transparent sur mes compétences, j'applique mes bases en HTML/CSS, JavaScript et Figma sur des projets collaboratifs et dynamiques.",
                 tags: ["HTML", "CSS", "Node.js"],
                 link: "https://jj-dev625.github.io/Mon-portfolio/ ",
-                photo: jeanJunior
+                photo: imgJeanJunior
             },
-
-             
 
             {
                 initials: "AUR",
                 name: "Asseekome Ulrich Romaric",
                 role: "Développeur web et web mobile",
-                desc: "Développeur full-stack orienté backend. Je me concentre sur la création d'APIs robustes et l'optimisation des performances avec Node.js.",
+                desc: "Ulrich, licence pro en informatique de gestion, developpeur web et web mobile junior (Front-end), certifié D-clic. Promo 14 école 241.",
                 tags: ["HTML", "CSS", "Node.js"],
                 link: "https://asseekomeulrichromaric-lang.github.io/Portfolio/",
-                photo: ulrich
+                photo: imgUlrich
             },
 
-              {
-                  initials: "AMV",
+            {
+                initials: "AMV",
                 name: "Vanelie ABANG MINKO",
                 role: "Développeur web et web mobile",
-                desc: "Développeur full-stack orienté backend. Je me concentre sur la création d'APIs robustes et l'optimisation des performances avec Node.js.",
+                desc: "Je m'appelle Vanelie ABANG MINKO, nouvelle dans le domaine du développement web et passionnée par les technologies numériques. Je suis développeuse web back-end et infographe. Curieuse et motivée, j’aime apprendre de nouvelles technologies, relever des défis et améliorer mes compétences à travers différents projets web. Cette aventure dans le développement me permet de découvrir chaque jour de nouvelles connaissances et de progresser continuellement.",
                 tags: ["HTML", "CSS", "Node.js"],
                 link: "https://akatsuki-png.github.io/MonPortfolio2.0/",
-                photo: vanelie
+                photo: imgVanelie
+            },
+
+            {
+                initials: "MDB",
+                name: "MOUNDOUNGA DIBANGOU Beeve ",
+                role: "Développeur front-end.",
+                desc: "Développeur attiré par le code, designer graphique, penchant pour l’esthétique visuel, crée des interfaces modernes et professionnels .",
+                tags: ["HTML", "CSS", "Node.js"],
+                link: " https://wwwyurysherman777-glitch.github.io/portfolio/",
+                photo: imgBeevProfile
+            },
+
+            {
+                initials: "MBO",
+                name: "MBA Osuris, ",
+                role: "Développeur Web et Web mobile..",
+                desc: "Passionné par la création numérique, mon portfolio illustre mes compétences, qui vont de l'UI/UX Design(Zoning, Wireframe, Maquettage sur des projets comme PrimePrompts) jusqu'à l'intégration front-end moderne (HTML5, CSS3, JavaScript) pour des sites fluides et responsives.",
+                tags: ["HTML", "CSS", "JS"],
+                link: "https://bekerosuris-tech.github.io/portfolio/",
+                photo: imgOsirus
+            },
+
+            {
+                initials: "MK",
+                name: "Konda ndoundou rucia berlina",
+                role: "Développeur Web et Web mobile..",
+                desc: "Passionnée par la création d’interfaces modernes,élégantes et intuitives.Je conçois des expériences web dynamiques et responsives en mettant l’accent sur la qualité, la performance et l’expérience utilisateur de site web et application web mobile, tout en développant des solutions fonctionnelles côté back-end.",
+                tags: ["HTML", "CSS", "JS", "Figma", "Git", "Github"],
+                link: "https://kondarucia-cell.github.io/mon-portefolio/",
+                photo: imgRusia
+            },
+
+            {
+                initials: "MY",
+                name: "AKENDENGUE Marcy Yolene,",
+                role: "Développeur Web et Web mobile..",
+                desc: "Je suis AKENDENGUE Marcy Yolene, developpeuse web/web mobile en formation.Je crée des interfaces web, simples, modernes et structurées.",
+                tags: ["HTML", "CSS", "JS"],
+                link: "https://marcy1999.github.io/portfolio/",
+                photo: imgYolaine
+            },
+
+            {
+                initials: "EM",
+                name: "Elie Martial ,",
+                role: "Développeur Web Frontend",
+                desc: " développeur Frontend passionné par la création de sites web modernes, élégants et responsives.",
+                tags: ["HTML", "CSS", "JS"],
+                link: " https://elie82428.github.io/portfolio-elie/",
+                photo: imgMartiale
             },
                 
         ];

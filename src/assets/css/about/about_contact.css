@@ -32,7 +32,7 @@
     flex: 1.5;
     border-radius: 1.8rem;
     
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(35,15,5,0.4)),url('../../images/bg-contact-about.jpeg');
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(35,15,5,0.2)),url('../../images/about/contact/about-contact-bg.jpeg');
     background-size: cover;
     border: 2px solid #5d688d;
 

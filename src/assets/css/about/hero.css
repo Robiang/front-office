@@ -1,7 +1,7 @@
 .hero-container{
     min-height: 100vh;
     max-width: 1440px;
-    background-image: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.6)),url('../../images/Fond-About.jpeg');
+    background-image: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.6)),url('../../images/about/about-hero-bg.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
