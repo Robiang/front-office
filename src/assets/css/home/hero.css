@@ -1,20 +1,15 @@
 .page{
-    padding: 8rem 2rem;
-    background-color: var(--white-color);
+    padding: 8rem .5rem;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("../../images/home/hero-img-home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .hero-card{
-    max-width: 1200px;
     margin: 0 auto;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    background: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url("../../images/home/hero-img-home.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    border-radius: 40px;
 }
 .hero-content {
     padding: 4rem 1rem;
@@ -22,7 +17,6 @@
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-    /* border: 2px solid white; */
 }
 .hero-title{
     text-align: center;
@@ -87,12 +81,6 @@
     .hero-content{
         gap: 1.5rem;
         padding: 1.5rem 1rem;
-    }
-    .hero-title{
-        font-size: 1.9rem;
-    }
-    .hero-sub{
-        font-size: 1.2rem;
     }
     .hero-sub{
         padding-bottom: .8rem;

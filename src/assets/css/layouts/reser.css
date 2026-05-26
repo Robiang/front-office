@@ -28,7 +28,6 @@ html{
     }
 }
 
-
 body{
     background-color: var(--bg-color);
 }
@@ -40,16 +39,19 @@ p{
 
 .main-container{
     margin: 0 auto;
+    max-width: 1440px;
+}
+.container{
+    margin: 0 auto;
     max-width: 1200px;
-    padding: 1.5rem 2rem;
 }
 @media screen and (max-width: 768px){
     .main-container{
-        padding: .8rem 1rem;
+        /* padding: .8rem 1rem; */
     }
 }
 @media screen and (max-width: 480px){
-    .main-container{
-        padding: .6rem .5rem;
+    .container{
+       
     }
 }

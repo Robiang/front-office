@@ -10,14 +10,13 @@
 /* ── Titre de section ──────────────────────────────────────── */
 
 .profiles {
-  padding: .5rem;
-  padding-bottom: 3rem;
+  padding: 10rem .5rem 8rem .5rem;
   /* border: .1rem solid orange; */
 }
 
 .profiles .section-header {
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 6rem;
 }
 
 /*
@@ -26,7 +25,7 @@
 .profiles .section-title {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: var(--main-color);
   margin-bottom: 8px;
 }
@@ -36,7 +35,7 @@
 */
 .profiles .section-subtitle {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--light-color);
 }
 
@@ -47,7 +46,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap:2rem;
-  max-width: 1100px;
   margin: 0 auto;
 }
 

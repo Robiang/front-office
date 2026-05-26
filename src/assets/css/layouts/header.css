@@ -3,11 +3,11 @@
     position: fixed;
     top: 0;left: 0;right: 0;
     z-index: 1000;
-    background-color: var(--white-color);
-
+    background: transparent;
 }
 .header.active{
     box-shadow: var(--box-shadow);
+    background-color: var(--white-color);
 }
 
 
@@ -16,9 +16,13 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: .8rem .5rem;
 }
 .header .flex .logo{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+    color: var(--white-color);
+}
+.header .flex .logo.active{
     color: var(--black-color);
 }
 .header .flex .logo:hover{
@@ -28,19 +32,25 @@
     font-family: "Holtwood One SC", serif;
     font-weight: 400;
     color:  var(--main-color);
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
 }
 .navbar .link{
     display: inline-block;
     cursor: pointer;
     margin: 0 0.2rem;
-    font-size: 1.1rem;
-    color: var(--light-color);
+    font-size: 1rem;
     position: relative;
     border: .2rem solid transparent;
-    padding: .5rem .8rem;
+    padding: .4rem .7rem;
     border-radius: 6px;
+    color: var(--white-color);
+}
+.navbar .link.active{
+    color: var(--light-color);
+}
+.nav-mobile{
+    display: none;
 }
 
 .navbar .link:hover{
@@ -53,13 +63,15 @@
 #menu-btn{
     display: none;
     font-size: 2rem;
-    color: var(--black-colorblack);
+    color: var(--white-color);
     cursor: pointer;
     &.fa-xmark{
         transform: rotate(90deg);
     }
 }
-
+#menu-btn.active{
+    color: var(--black-colorblack);
+}
 #menu-btn .fa-xmark{
     transform: rotate(90deg);
 }
@@ -73,29 +85,33 @@
         position: relative;
         
     }
-    .header .flex .navbar{
+    .navbar{
+        display: none;
+    }
+    .header .flex .nav-mobile   {
+        display: block;
         position: absolute;
         top: 100%;
         left: 0;
         right: 0;
         border-top: var(--border);
-        padding: .5rem;
+        padding: .5rem 0;
         backdrop-filter: blur(1rem);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         background-color: var(--white-color);
     }
-    .header .flex .navbar .link{
+    .header .flex .nav-mobile a{
         display: block;
         font-size: 1.1rem;
         margin: 1rem;
         padding: .5rem;
-        border: none;
-        
+        color: var(--light-color);
     }
-    .header .flex .navbar .link:hover{
+    .header .flex .nav-mobile a:hover{
         padding-left: 2rem;
+        color: var(--main-color);
     }
-    .header .flex .navbar.active{
+    .header .flex .nav-mobile.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 }

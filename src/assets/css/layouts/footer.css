@@ -3,7 +3,7 @@
 .mon-footer {
     background-color: #142643;
     color: var(--white-color);
-    padding: 1.5rem; 
+    padding: 1.5rem .5rem; 
 }
 footer .logo{
     font-size: 1.7rem;
