@@ -10,7 +10,7 @@ export default defineConfig({
                 about: resolve(__dirname, 'src/pages/about.html')
             }
         },
-         outDir: 'docs'
+        outDir: 'docs'
     },
     base: "/Portail_portfolio/"
 })
