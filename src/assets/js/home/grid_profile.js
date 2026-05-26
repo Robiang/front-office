@@ -19,6 +19,7 @@
         import imgRusia from "../../images/home/profile/profile-rusia.jpg"
         import imgYolaine from "../../images/home/profile/profile-yolaine.png"
         import imgMartiale from "../../images/home/profile/profile-martiale.png"
+        import imgKen from "../../images/home/profile/profile-ken-noe.jpeg"
 
         const developers = [
 
@@ -185,6 +186,16 @@
                 tags: ["HTML", "CSS", "JS"],
                 link: " https://elie82428.github.io/portfolio-elie/",
                 photo: imgMartiale
+            },
+
+            {
+                initials: "NK",
+                name: "Noé-Ken ,",
+                role: "Développeur frontend web et mobile",
+                desc: "Je transforme des idées en interfaces rapides avec un focus sur la performance centrée sur l'expérience utilisateur.",
+                tags: ["HTML", "CSS", "JS"],
+                link: "https://noekenmoukakou6-sys.github.io/noe-ken-portfolio/",
+                photo: imgKen
             },
                 
         ];
