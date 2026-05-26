@@ -42,7 +42,7 @@
     font-size: 1rem;
     position: relative;
     border: .2rem solid transparent;
-    padding: .4rem .7rem;
+    padding: .2rem .5rem;
     border-radius: 6px;
     color: var(--white-color);
 }
