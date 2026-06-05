@@ -1,0 +1,58 @@
+/*..........DEBUT SECTION HERO..............*/
+
+.hero-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px 0 20px;
+}
+
+.hero-title{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.hero-subtitle{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+
+.btn-explore{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 28px;
+    font-size: 15px;
+    font-weight: 600;
+    background: gray;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+.btn-explore:hover{
+background: #ffffff;
+color: white;
+border-color: #ffffff;
+}
+
+
+.arrow{
+    font: size 1.3em;
+    transition: 0.3ms ease;
+}
+
+.btn-explore:hover.arrow{
+    transform: translateX(2px);
+}

@@ -1,0 +1,38 @@
+@import url("./asset/css/hero.css");
+@import url("./asset/css/footer.css");
+@import url("./asset/img/Page\ d\'accueil.png");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./asset/img/Page\ d\'accueil.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(27, 64, 125, 0.8);
+}
+
+/*............VERSION RESPONSIVE.................*/
+
+@media (max-width: 768px) {
+
+
+    .stats-bar{
+        height: auto;
+        padding: 8px 10px;
+    }
+
+    .stats-num{
+        font-size: 18px;
+    }
+
+    .stats-label{
+        font-size: 11px;
+    }
+}
