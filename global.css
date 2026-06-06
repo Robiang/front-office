@@ -20,8 +20,21 @@ body{
 
 /*............VERSION RESPONSIVE.................*/
 
-@media (max-width: 768px) {
+@media (max-width: 376px) {
 
+    .hero-title{
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .hero-subtitle{
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
 
     .stats-bar{
         height: auto;
